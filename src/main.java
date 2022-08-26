@@ -1,8 +1,8 @@
-
+package src;
 public class main {
 
     public static final String host = "tcp://localhost:61616";
-    public static final String topic = "javaass";
+    public static final String topic = "test";
 
     public static void main(String[] args){
 
@@ -13,8 +13,8 @@ public class main {
 
         Context ctx = new InitialContext(env);*/
 
-        chat c = new chat();
-
+        
+        gui g = gui.getInstance();
     }
 }
 
